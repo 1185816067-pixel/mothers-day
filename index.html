@@ -162,10 +162,10 @@ body{font-family:'PingFang SC','Microsoft YaHei',sans-serif;overflow:hidden;touc
 
   <div class="photo-section fade-in">
     <div class="photo-stack" id="photoStack">
-      <div class="photo-card"><img src="41aebe053368c0b30f32d114e580b974.jpg" alt="妈妈"></div>
-      <div class="photo-card"><img src="合照.jpg" alt="合照1"></div>
-      <div class="photo-card"><img src="bcc72a3875a3e6a4fe8e5508c5acf465.jpg" alt="合照2"></div>
-      <div class="photo-card"><img src="34edfca1f24e6be9342eda9767459290.jpg" alt="合照3"></div>
+      <div class="photo-card"><img src="https://cdn.jsdelivr.net/gh/1185816067-pixel/mothers-day@main/41aebe053368c0b30f32d114e580b974.jpg" alt="妈妈"></div>
+      <div class="photo-card"><img src="https://cdn.jsdelivr.net/gh/1185816067-pixel/mothers-day@main/合照.jpg" alt="合照1"></div>
+      <div class="photo-card"><img src="https://cdn.jsdelivr.net/gh/1185816067-pixel/mothers-day@main/bcc72a3875a3e6a4fe8e5508c5acf465.jpg" alt="合照2"></div>
+      <div class="photo-card"><img src="https://cdn.jsdelivr.net/gh/1185816067-pixel/mothers-day@main/34edfca1f24e6be9342eda9767459290.jpg" alt="合照3"></div>
     </div>
     <div class="photo-hint">👆 点击照片翻看下一张</div>
   </div>
@@ -244,7 +244,7 @@ const musicLabel=document.getElementById('musicLabel');
 let extAudio=null;
 
 function tryPlayMusic(){
-  const a=new Audio();a.src='music.mp3';a.loop=true;
+  const a=new Audio();a.src='https://cdn.jsdelivr.net/gh/1185816067-pixel/mothers-day@main/music.mp3';a.loop=true;
   a.play().then(()=>{
     extAudio=a;musicPlaying=true;
     musicBtn.classList.add('playing');musicLabel.textContent='暂停音乐';
